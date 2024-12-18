@@ -35,7 +35,10 @@ export default function RootLayout({
                 DARWISH
               </Link>
               <div className="flex space-x-4">
-                <Link href="/swift" className="text-gray-700 hover:text-black">
+                <Link
+                  href="/swift-dev"
+                  className="text-gray-700 hover:text-black"
+                >
                   Swift
                 </Link>
                 <Link href="/python" className="text-gray-700 hover:text-black">
@@ -45,10 +48,10 @@ export default function RootLayout({
                   Rust
                 </Link>
                 <Link
-                  href="/javascript"
+                  href="/english"
                   className="text-gray-700 hover:text-black"
                 >
-                  Javascript
+                  English
                 </Link>
               </div>
             </nav>
